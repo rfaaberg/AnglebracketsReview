@@ -31,8 +31,26 @@
 ## Angular2 in 60ish minutes / ES6 today
 [Dan Wahlin](https://weblogs.asp.net/dwahlin)
 
+http://tinyurl.com/Angular2Jumpstart
+
 * Use the features of the future, today! :arrow_right: Transpiling
 * Traceur from Google, TypeScript from Microsoft, Babel from Some Guy
   * https://google.github.io/traceur-compiler/demo/repl.html#
   * http://www.typescriptlang.org/Playground
   * https://babeljs.io/repl/
+* Angular2 uses TS, but you don't have to use it
+* Full-time documentation team for the first time: angular.io
+  * Still in progress
+* No more factory vs. provider vs. service
+  * It's a component (reusable object)
+<figure>
+![Slide -- What's in a Component Class?](https://cloud.githubusercontent.com/assets/12703711/11004075/f8ebf680-846a-11e5-92b9-02bb6e66098a.png)
+<figcaption>from https://docs.google.com/presentation/d/1uLlx-pidFzXpFF3VDbhva-qAhDvQMipE9rHMg7fd5js/edit#slide=id.ge42647124_0_45</figcaption>
+</figure>
+
+## What does an open source Microsoft Web Platform look like?
+Keynote by [Scott Hanselman](http://www.hanselman.com/blog/)
+
+* Past focus has been on dev productivity, making a run at top 10
+  * https://github.com/aspnet/benchmarks
+  * https://github.com/aspnet/benchmarks
