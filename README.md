@@ -58,6 +58,24 @@ http://tinyurl.com/Angular2Jumpstart
 <figcaption>from https://docs.google.com/presentation/d/1uLlx-pidFzXpFF3VDbhva-qAhDvQMipE9rHMg7fd5js/edit#slide=id.ge42647124_0_45</figcaption>
 </figure>
 
+## How to go on the cyber-offence
+[Troy Hunt](http://troyhunt.com)
+
+* Know how to break things yourself before someone else does
+* http://twitter.com/needadebitcard
+* Hackers only need to get it right once, we have to get it right every time
+* https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=inurl%3Aftp%20inurl%3Aweb.config
+* Proxy your phone through Fiddler, see what data shows up in plaintext
+  * Major bank in AU that turned off TLS validation
+* Dangerous to assume that users will use software as intended
+* Hashing - don't use Base64, MD5, or encrypt 
+  * http://hashcat.net/oclhashcat/
+  * Billions of attempts possible per second
+  * Use hashing algorithm to make it hardeer
+    * https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet
+* Teenagers hacking major companies with easy to use tools
+  * Talktalk via SQL injection
+
 ## What does an open source Microsoft Web Platform look like?
 Keynote by [Scott Hanselman](http://www.hanselman.com/blog/)
 
