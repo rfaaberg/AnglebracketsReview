@@ -39,10 +39,20 @@ http://tinyurl.com/Angular2Jumpstart
   * http://www.typescriptlang.org/Playground
   * https://babeljs.io/repl/
 * Angular2 uses TS, but you don't have to use it
+ * Transpiling lets you use the latest and greatest but still support older browsers
+ * ES6 features are a lot of C#-ish features
+  * Arrow syntax for anonymous methods
 * Full-time documentation team for the first time: angular.io
   * Still in progress
 * No more factory vs. provider vs. service
   * It's a component (reusable object)
+* Big changes but necessary
+  * Different syntax
+  * One way binding
+  * ng-for instead of ng-repeat
+  * Pipes instead of filters
+  * Routing by annotation
+  * No more ng-show/hide :arrow_right: [hidden] = "method"
 <figure>
 ![Slide -- What's in a Component Class?](https://cloud.githubusercontent.com/assets/12703711/11004075/f8ebf680-846a-11e5-92b9-02bb6e66098a.png)
 <figcaption>from https://docs.google.com/presentation/d/1uLlx-pidFzXpFF3VDbhva-qAhDvQMipE9rHMg7fd5js/edit#slide=id.ge42647124_0_45</figcaption>
