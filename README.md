@@ -2,6 +2,8 @@
 
 ![Desk at Anglebrackets](https://cloud.githubusercontent.com/assets/12703711/11003403/1df31516-8467-11e5-9db2-5b6f831a09a2.jpg)
 
+![MGM Grand](https://cloud.githubusercontent.com/assets/12703711/11026517/e14514f2-865f-11e5-9f97-dd784a47895c.jpg)
+
 ## Zen of Architecture, Juval Lowy
 
 * One day workshop all about "The Method" - [IDesign](http://idesign.net/)'s Method of architecting software
@@ -75,6 +77,16 @@ http://tinyurl.com/Angular2Jumpstart
     * https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet
 * Teenagers hacking major companies with easy to use tools
   * Talktalk via SQL injection
+* Content Security Policy (CSP) - prevent unwanted scripts from loading
+  * https://developer.mozilla.org/en-US/docs/Web/Security/CSP
+  * https://report-uri.io/ - report violations
+* Wifi pineapple - https://www.wifipineapple.com/
+  * Spoofs public wifi SSID, can see unencrypted traffic
+  * Use VPN (Freedome)
+* strict-transport-security
+ * https://www.owasp.org/index.php/HTTP_Strict_Transport_Security
+ * Prevent subsequent requests from going through unencrypted
+ * Trust on First Use - https://hstspreload.appspot.com/
 
 ## What does an open source Microsoft Web Platform look like?
 Keynote by [Scott Hanselman](http://www.hanselman.com/blog/)
