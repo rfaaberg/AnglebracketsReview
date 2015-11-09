@@ -188,3 +188,16 @@ Sam Artioli - github.com/samartioli/webapp-security
 Robert Green - Tech Evangelist, Microsoft
 https://channel9.msdn.com/Niners/rogreen
 
+* Sign in to VS account to persist settings across computers
+* Better touch support, pinch to zoom
+* Save window layouts, switch using hotkeys, saves to profile
+* Lightbulbs, ctrl-. to do refactors
+* Warnings with variable names conflicting
+* TODO in JS, Intellisense for JS methods
+* Code Analyzers made possible by Roslyn, Microsoft and third parties, write yuor own
+* Debug :arrow_right: Show diagnostics tools
+* Pin variables, filter using LINQ in Immediate or Watch windows
+* Create Unit Tests
+  * Supports different frameworks
+  * Intellitest
+* Codecracker analyzer
