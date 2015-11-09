@@ -34,6 +34,20 @@
 * Disagrees with how most places implement Agile
   * Sprint should be highly focused, piecing together building blocks to meet core requirements
 
+## Glimpse
+Anthony vander Hoorn - http://getglimpse.com/, working at Microsoft
+ * .NET is getting a lot more modular, as is ASP.NET
+ * Startup is the new Global.asax
+ * Platform independent, modularity
+ * Middleware - replacing handlers + modules
+ * Microsoft.AspNet.Diagnostics package
+ * project.json is the new web.config
+ * Improved YSOD
+  * Showing source code and highlighting the line that threw exception
+ * RuntimeInfoPage /runtimeinfo
+ * Easy console tracing
+ * Semantic logging
+
 ## Angular2 in 60ish minutes / ES6 today
 [Dan Wahlin](https://weblogs.asp.net/dwahlin)
 
