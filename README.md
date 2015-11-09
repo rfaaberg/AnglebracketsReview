@@ -91,6 +91,33 @@ http://tinyurl.com/Angular2Jumpstart
 ## What does an open source Microsoft Web Platform look like?
 Keynote by [Scott Hanselman](http://www.hanselman.com/blog/)
 
+* Microsoft has a very mixed/confusing record on open source
+ * Shared source
+ * Reference source
+   * http://www.sourceof.net
+ * Github Microsoft repositories: 20% non-Microsoft contributors
+   * Everything still goes through Microsoft QA process, they stand behind it
+ * Regular .NET framework and .NET core
+   * Only things that make sense in .NET core
+ * ASP.NET 5 is unified reboot, runs on .NET 4.6
+ * Dot Net Execution (DNX) builds against both environments
+   * Warns if feature / library won't work in both
+   * Can do ifdef if you want
 * Past focus has been on dev productivity, making a run at top 10
+  * https://www.techempower.com/benchmarks/#section=data-r10&hw=peak&test=plaintext
   * https://github.com/aspnet/benchmarks
-  * https://github.com/aspnet/benchmarks
+* Omnisharp, intellisense everywhere
+  * http://www.omnisharp.net/
+  * Runs as node server on local machine, MacOS, Linux, Windows
+* Windows selling Office, Windows, Azure
+* Reality is a hybrid of devices, OSes
+* Different ways of consuming framework
+ * Well done: wait till VS, get at nuget.org
+ * Medium well: CTPs, Betas 
+ * Medium: CI drops, feed on myget.org
+ * Medium-rare: build from source, grabbing from dev branches
+ * Rare: Build from source on feature branches
+ * Blue: build from source from third party forks
+* Help out with documentation: https://docs.asp.net
+* Become a social developer: getinvolvedintech.com
+ * Microsoft learning from good stuff and bad stuff in open source projects
