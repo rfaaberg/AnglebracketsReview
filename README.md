@@ -2,6 +2,8 @@
 
 ![Desk at Anglebrackets](https://cloud.githubusercontent.com/assets/12703711/11003403/1df31516-8467-11e5-9db2-5b6f831a09a2.jpg)
 
+"The Open Source Conference"
+
 ![MGM Grand](https://cloud.githubusercontent.com/assets/12703711/11026517/e14514f2-865f-11e5-9f97-dd784a47895c.jpg)
 
 ## Zen of Architecture, Juval Lowy
