@@ -131,7 +131,6 @@ Javier Lozano - lzno.tk/aspnet5-unleashed
 * Dependency injection outside of the box
 * POCO controller, follow conventions
 * TagHelpers
-* 
 
 ## Improving the quality of existing code
 
@@ -161,3 +160,31 @@ Steve Smith - http://ardalis.com/
   * Muscle memory for code smells
   * New is glue
 * http://deviq.com/
+
+## Node.js and Angular.js Security
+
+Sam Artioli - github.com/samartioli/webapp-security
+
+* Always sanitize data
+* Authorize API
+* eval() is evil
+* requireSafe, nsp, and retire in workflow
+* 'use strict'
+* Use CSPs
+* Never run as root - use docker
+* CHrome blocks XSS in URL, but Firefox doesn't 
+* DOS attacks - watch out for regexes that will kill server
+* Preventing CSRF
+  * CSURF
+  * Don't use eval(), especially on user-generated data
+* Node Security Project - https://nodesecurity.io/
+* https://liftsecurity.io/
+* Shrinkwrap locks down dependencies, pjup asks you about each ugprade
+* lusca, helmet
+* Removed X-Powered-By
+
+## Productivity improvements in VS2015
+
+Robert Green - Tech Evangelist, Microsoft
+https://channel9.msdn.com/Niners/rogreen
+
