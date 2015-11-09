@@ -121,3 +121,43 @@ Keynote by [Scott Hanselman](http://www.hanselman.com/blog/)
 * Help out with documentation: https://docs.asp.net
 * Become a social developer: getinvolvedintech.com
  * Microsoft learning from good stuff and bad stuff in open source projects
+
+## ASP.NET 5
+
+Javier Lozano - lzno.tk/aspnet5-unleashed
+
+* Out of band releases now embraced, not just VS releases
+* Opting in for features, don't have to shut features off
+* Dependency injection outside of the box
+* POCO controller, follow conventions
+* TagHelpers
+* 
+
+## Improving the quality of existing code
+
+Steve Smith - http://ardalis.com/
+
+* Software rots :arrow_right: technical debt
+  * Low quality code and shortcuts cost you in the long run
+  * If you do nothing, it gets worse, and replacing it entirely has enormous risk and cost
+  * Refactor as you go
+* Preventive maintenance
+* Don't have seperate refactor tasks, make things a little better
+ * Follow Boy Scouts mantra of leaving things in better condition than when you got there
+ * "You don't need permission to practice basic hygiene when you write software"
+ * Characterization test
+  * What does the code do now?
+  * Unit test if possible to confirm existing behavior is preserved
+* Duplication in logic calls for abstraction
+* Duplication in process calls for automation
+* Favor privileges over role checks
+* Visual Studio Code Clones - https://msdn.microsoft.com/en-us/library/hh205279.aspx
+* Look at cyclomatic complexity
+  * Try to keep under 10, not always a problem
+* Regions are a code smell - so complex you have to hide parts of it
+* Instead of null, have static intance of "not found" object
+* Structure solution so dependencies flow towards core (onion architecture)
+* Develop skills and tools to write good code more quickly
+  * Muscle memory for code smells
+  * New is glue
+* http://deviq.com/
