@@ -2,6 +2,8 @@
 
 ![Desk at Anglebrackets](https://cloud.githubusercontent.com/assets/12703711/11003403/1df31516-8467-11e5-9db2-5b6f831a09a2.jpg)
 
+"The Open Source Conference" https://anglebrackets.org/
+
 ![MGM Grand](https://cloud.githubusercontent.com/assets/12703711/11026517/e14514f2-865f-11e5-9f97-dd784a47895c.jpg)
 
 ## Zen of Architecture, Juval Lowy
@@ -18,7 +20,7 @@
   * Building architect wouldn't do one and then go back and add others
 * "Most architects are quacks" "Inmates are running the asylum"
   * First Law of Thermodynamics: Can't add value without sweating
-  * 2% problem / Dunning-Kruger effect
+  * 2% problem / [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
   * Just because something doesn't work doesn't mean people will stop doing it :arrow_right: alchemy
 * The Method: decompose based on volatility
 * Do not code to requirements, don't blame the customer for changing requirements
@@ -29,11 +31,28 @@
   * Third-party notifications can be volatile
   * Varies by over time with one customer and between different customers
 * Rarely map areas of volatility to services
+* Disagrees with how most places implement Agile
+  * Sprint should be highly focused, piecing together building blocks to meet core requirements
+
+## Glimpse
+Anthony vander Hoorn - http://getglimpse.com/, working at Microsoft
+ * .NET is getting a lot more modular, as is ASP.NET
+ * Startup is the new Global.asax
+ * Platform independent, modularity
+ * Middleware - replacing handlers + modules
+ * Microsoft.AspNet.Diagnostics package
+ * project.json is the new web.config
+ * Improved YSOD
+  * Showing source code and highlighting the line that threw exception
+ * RuntimeInfoPage /runtimeinfo
+ * Easy console tracing
+ * Semantic logging
 
 ## Angular2 in 60ish minutes / ES6 today
 [Dan Wahlin](https://weblogs.asp.net/dwahlin)
 
-http://tinyurl.com/Angular2Jumpstart
+* http://tinyurl.com/Angular2Jumpstart
+* http://tinyurl.com/es6Today
 
 * Use the features of the future, today! :arrow_right: Transpiling
 * Traceur from Google, TypeScript from Microsoft, Babel from Some Guy
@@ -44,11 +63,17 @@ http://tinyurl.com/Angular2Jumpstart
  * Transpiling lets you use the latest and greatest but still support older browsers
  * ES6 features are a lot of C#-ish features
   * Arrow syntax for anonymous methods
+    * Captures "this" reference
+  * Classes (constructors, properties, inheritance)
+  * Modules - SystemJS can load ES6, Babel, Traceur
+  * Maps (dictionaries) and sets (faster than arrays for testing membership)
+  * Template strings: multiline, embed variables and expressions, use `
+  * Default parameter values, destructuring, "rest" parameters
 * Full-time documentation team for the first time: angular.io
   * Still in progress
 * No more factory vs. provider vs. service
   * It's a component (reusable object)
-* Big changes but necessary
+* Angular has big changes but necessary
   * Different syntax
   * One way binding
   * ng-for instead of ng-repeat
